@@ -1,10 +1,6 @@
 module Calculator(A,B,result,s,a,b,c,d,unusedSeg);
 
-	/* Name: Vamsi Lingamaneni
-		Student #: 214 724 058
-		EECS User: vamsi */
-		
-		/* **** this is my  main class / top entity **** */
+	
 		
    input [3:0] A; //First 4 bit binary input
    input [3:0] B; //Second 4 bit binary input
