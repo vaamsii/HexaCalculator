@@ -1,4 +1,4 @@
-# HexaCalculator
+# HexaCalculator - Verilog fPGA 
 
 I used de-10 lite fPGA board for this and intel quartus prime for this project.
 
