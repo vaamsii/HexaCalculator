@@ -1,6 +1,6 @@
-# HexaCalculator - Verilog fPGA 
+# HexaCalculator - Verilog FPGA 
 
-I used de-10 lite fPGA board for this and intel quartus prime for this project.
+I used de-10 lite FPGA board for this and intel quartus prime for this project.
 
 I did a calculator which does 4 main arithmetic operations, addition, subtraction, multiplication and division. However, when user chooses division, I also output the remainder along with the quotient. Therefore, in total I did 5 operations, as I also incorporated Mod operation, along with the 4 main arithmetic operations.
 
