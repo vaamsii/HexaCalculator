@@ -1,11 +1,5 @@
 module sevSig(bin,seg,nC);
 
-		/* Name: Vamsi Lingamaneni
-		Student #: 214 724 058
-		EECS User: vamsi */
-		
-		// I used this code in my lab 2 and 3, got it from there, except for the negative check part.
-
 		input [3:0]bin;
 		output reg [6:0]seg;
 		input nC; //This is negative Check, this is used to tell the seven segement output, when they are supposed to output a negative or not
