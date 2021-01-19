@@ -1,7 +1,12 @@
 # HexaCalculator - Verilog FPGA 
 
+# Devices and Software:
 I used de-10 lite FPGA board for this and intel quartus prime for this project.
 
+# Demo:
+video: https://www.youtube.com/embed/8hqoXNLomW8?start=18
+
+# Main operations:
 I did a calculator which does 4 main arithmetic operations, addition, subtraction, multiplication and division. However, when user chooses division, I also output the remainder along with the quotient. Therefore, in total I did 5 operations, as I also incorporated Mod operation, along with the 4 main arithmetic operations.
 
 The calculator will have two inputs, the first input (A in the code) will take in a 4-bit binary number and the second input (B in the code) will take in a 4-bit binary number, using Sw0 to sw7. The inputs will be displayed on the seven-segment display, A will be in hex5 and B will be in hex3. The board will take in those physical binary inputs and perform those 4 arithmetic (Addition, subtraction, multiplication, and division) calculations as well as mod function. Then it will output in hexa-decimal on the seven-segment display. The inputs are also displayed in hexadecimal form on the seven-segment display, in hex1 and hex0.
